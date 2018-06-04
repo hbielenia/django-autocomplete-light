@@ -71,6 +71,7 @@
         $(this).select2({
             tokenSeparators: element.attr('data-tags') ? [','] : null,
             debug: true,
+            containerCssClass: ':all:',
             placeholder: '',
             minimumInputLength: 0,
             allowClear: ! $(this).is('required'),
